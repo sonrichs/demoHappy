@@ -6,6 +6,8 @@ const mongoose = require('mongoose')
 const bcrypt = require('bcrypt')
 const session = require()
 
+// HELLO!
+
 mongoose.connect('mongodb://127.0.0.1:27017/authDemo').
     catch(error => {
         console.log("ERROR CONNECTING TO DATABASE! ", error)
